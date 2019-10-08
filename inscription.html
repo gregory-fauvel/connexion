@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="connexion.css">
+	<title>Inscription</title>
+</head>
+<body>
+	<div class="inscription">
+	<h1>"Création de compte"</h1>
+
+			<br><form method="post" action="traitement.php">
+			<label for="Nom">Login:</label>
+			<input type="text" id="Nom"></form></br>
+
+			<br><form method="post" action="traitement.php">
+			<label for="mdp">Mot de passe:</label>
+			<input type="password" name="password"></form></br>
+
+			<br><form method="post" action="traitement.php">
+			<label for="mdp">Confirmez mot de passe:</label>
+			<input type="password" name="password"></form></br>
+
+			<br><label for="date">Date de naissance:</label>
+			<input type="date" name="date"></br>
+
+			<br><label for="email">Votre adresse mail</label>
+			<input type="email"placeholder="votre adresse mail" name="user email"></br>
+
+			<br><label>Votre niveau d étude</label>
+			<select required>
+				<option value="1">Niveau 1</option>
+				<option value="2">Niveau 2</option>
+				<option value="3">Niveau 3</option>
+				<option value="4">Niveau 4</option>
+			</select></br>
+
+			<br><label for="prenom">Sexe:</label>
+			<input type="radio" id="homme" name="sexe" value="homme"required>
+			<label for="homme">Homme</label>
+			<input type="radio" id="femme" name="sexe" value="femme">
+			<label for="femme">Femme</label></br>
+
+			<br><label for="prenom">Numéro de téléphone</label>
+			<input type="tel" name="tel"></br>
+
+			<br><label for="prez">Présentation:</label>
+			<textarea id="prez"></textarea></br>
+
+			<br><input type="submit" value="Envoyer le Formulaire"></br>
+		</div>
+
+</body>
+</html>

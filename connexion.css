@@ -1,0 +1,38 @@
+body{
+	background-image: url(image/fond.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+div{
+	margin-top: 100px;	
+	margin-left:300px;
+	padding-right: 200px;
+	padding-left: 200px;
+	background-color: grey;
+	border:double;
+	border-radius: 20%;
+}
+a{	margin-left: 50px;
+	text-decoration: none;
+	color: black;
+	opacity: 0,3s;
+	border: black;
+}
+
+div.mdp{
+	width: 200px;
+	height: 300px;
+	padding-right: 200px;
+	margin-right: 300px;
+	margin-left:300px;
+
+}
+div.connexion{
+	margin-right: 200px;
+	margin-left: : 200px;
+
+}
+div.inscription{
+	margin-right:200px;
+
+}
